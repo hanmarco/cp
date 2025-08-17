@@ -1,0 +1,13 @@
+{
+  "name": "CP PWA App",
+  "short_name": "CP",
+  "start_url": "/cp/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": [
+    { "src": "/cp/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/cp/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/cp/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
