@@ -10,6 +10,9 @@
       <v-btn icon @click="$router.push('/')">
         <v-icon>mdi-home</v-icon>
       </v-btn>
+      <v-btn icon @click="$router.push('/books')">
+        <v-icon>mdi-book-open-page-variant</v-icon>
+      </v-btn>
       <v-btn icon @click="$router.push('/settings')">
         <v-icon>mdi-cog</v-icon>
       </v-btn>
