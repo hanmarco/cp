@@ -7,14 +7,14 @@
     <v-app-bar app>
       <v-app-bar-title>CP PWA</v-app-bar-title>
       <v-spacer></v-spacer>
-      <v-btn icon @click="$router.push('/')">
-        <v-icon>mdi-home</v-icon>
+      <v-btn large elevation="6" class="app-action-btn" color="primary" variant="tonal" @click="$router.push('/')" aria-label="홈">
+        <v-icon size="28">mdi-home</v-icon>
       </v-btn>
-      <v-btn icon @click="$router.push('/books')">
-        <v-icon>mdi-book-open-page-variant</v-icon>
+      <v-btn large elevation="6" class="app-action-btn" color="secondary" variant="tonal" @click="$router.push('/books')" aria-label="책 목록">
+        <v-icon size="28">mdi-book-open-page-variant</v-icon>
       </v-btn>
-      <v-btn icon @click="$router.push('/settings')">
-        <v-icon>mdi-cog</v-icon>
+      <v-btn large elevation="6" class="app-action-btn" color="info" variant="tonal" @click="$router.push('/settings')" aria-label="설정">
+        <v-icon size="28">mdi-cog</v-icon>
       </v-btn>
     </v-app-bar>
 
