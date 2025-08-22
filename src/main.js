@@ -4,7 +4,7 @@ import vuetify from './plugins/vuetify'
 import { router } from './router'
 
 // Vuetify icon font (Material Design Icons - mdi)
-//import '@mdi/font/css/materialdesignicons.css'
+import '@mdi/font/css/materialdesignicons.css'
 
 const app = createApp(App)
 
